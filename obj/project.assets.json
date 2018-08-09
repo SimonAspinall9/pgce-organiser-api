@@ -12545,11 +12545,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\simon.aspinall\\documents\\visual studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\pgce-organiser-api.csproj",
+      "projectUniqueName": "C:\\Users\\simon.aspinall\\Documents\\Visual Studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\pgce-organiser-api.csproj",
       "projectName": "pgce-organiser-api",
-      "projectPath": "c:\\users\\simon.aspinall\\documents\\visual studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\pgce-organiser-api.csproj",
+      "projectPath": "C:\\Users\\simon.aspinall\\Documents\\Visual Studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\pgce-organiser-api.csproj",
       "packagesPath": "C:\\Users\\simon.aspinall\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\simon.aspinall\\documents\\visual studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\obj\\",
+      "outputPath": "C:\\Users\\simon.aspinall\\Documents\\Visual Studio 2017\\Projects\\pgce-organiser-api\\pgce-organiser-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
