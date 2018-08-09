@@ -11,7 +11,7 @@ namespace pgce_organiser_api.Controllers
     {
         private readonly ICalendarDatesRepository _calendarRepository = new CalendarDatesRepository();
 
-        [HttpGet("")]
+        [HttpGet]
         public IEnumerable<CalendarDate> Get()
         {
             return _calendarRepository.Get();
