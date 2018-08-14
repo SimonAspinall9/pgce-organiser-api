@@ -32,6 +32,9 @@ namespace pgce_organiser_api.Controllers.DataAccess
 
         public void Save(Event calendarEvent)
         {
+            var blah = _calendarDates.FirstOrDefault(c => c.Events.Any(e => e.Id == calendarEvent.Id));
+            blah?.Events.Remove(blah.Events.First(e => e.Id == calendarEvent.Id));
+
             if (_calendarDates.Any(c => c.Date.Date == calendarEvent.DateTime.Date))
             {
                 _calendarDates.First(c => c.Date.Date == calendarEvent.DateTime.Date).Events.Add(calendarEvent);
