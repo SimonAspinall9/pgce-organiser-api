@@ -5,6 +5,7 @@ namespace pgce_organiser_api.Models
 
     public class Event
     {
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string AdditionalNotes { get; set; }

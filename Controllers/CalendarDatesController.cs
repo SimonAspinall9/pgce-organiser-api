@@ -38,6 +38,10 @@ namespace pgce_organiser_api.Controllers
         [HttpPost]
         public void Save([FromBody] Event calendarEvent)
         {
+            if (calendarEvent.Id == Guid.Empty)
+            {
+                calendarEvent.Id = Guid.NewGuid();
+            }
             _calendarRepository.Save(calendarEvent);
         }
     }
