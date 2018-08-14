@@ -10,6 +10,8 @@ namespace pgce_organiser_api.Models
         public string AdditionalNotes { get; set; }
         public DateTime DateTime { get; set; }
         public string EventType { get; set; }
+        public string Color { get; set; }
+        public string TextColor { get; set; }
     }
 
 }
